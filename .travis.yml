@@ -4,5 +4,5 @@ dotnet: 3.1
 mono: none
 
 scripts:
-  - ICT3101_Calculator/dotnet restore
-  - ICT3101_Calculator/dotnet test
+  - dotnet restore
+  - dotnet test
