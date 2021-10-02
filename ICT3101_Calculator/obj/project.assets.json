@@ -6385,11 +6385,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stupid\\source\\repos\\ICT3101_Calculator\\ICT3101_Calculator.csproj",
+      "projectUniqueName": "C:\\Users\\stupid\\source\\repos\\3101\\ICT3101_Calculator\\ICT3101_Calculator.csproj",
       "projectName": "ICT3101_Calculator",
-      "projectPath": "C:\\Users\\stupid\\source\\repos\\ICT3101_Calculator\\ICT3101_Calculator.csproj",
+      "projectPath": "C:\\Users\\stupid\\source\\repos\\3101\\ICT3101_Calculator\\ICT3101_Calculator.csproj",
       "packagesPath": "C:\\Users\\stupid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\stupid\\source\\repos\\ICT3101_Calculator\\obj\\",
+      "outputPath": "C:\\Users\\stupid\\source\\repos\\3101\\ICT3101_Calculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\stupid\\AppData\\Roaming\\NuGet\\NuGet.Config",

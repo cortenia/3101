@@ -1717,6 +1717,22 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "ICT3101_Calculator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "SpecFlow": "3.9.22",
+          "SpecFlow.NUnit": "3.9.22",
+          "SpecFlow.NUnit.Runners": "3.9.22",
+          "SpecFlow.Tools.MsBuild.Generation": "3.9.22"
+        },
+        "compile": {
+          "bin/placeholder/ICT3101_Calculator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ICT3101_Calculator.dll": {}
+        }
       }
     }
   },
@@ -6337,11 +6353,16 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "ICT3101_Calculator/1.0.0": {
+      "type": "project",
+      "path": "../ICT3101_Calculator/ICT3101_Calculator.csproj",
+      "msbuildProject": "../ICT3101_Calculator/ICT3101_Calculator.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "C:\\Users\\stupid\\source\\repos\\ICT3101_Calculator.csproj",
+      "ICT3101_Calculator >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "NUnit >= 3.13.2",
       "NUnit3TestAdapter >= 4.0.0",
@@ -6357,11 +6378,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stupid\\source\\repos\\ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\stupid\\source\\repos\\3101\\ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj",
       "projectName": "ICT3101_Calculator.UnitTests",
-      "projectPath": "C:\\Users\\stupid\\source\\repos\\ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj",
+      "projectPath": "C:\\Users\\stupid\\source\\repos\\3101\\ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj",
       "packagesPath": "C:\\Users\\stupid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\stupid\\source\\repos\\ICT3101_Calculator.UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\stupid\\source\\repos\\3101\\ICT3101_Calculator.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\stupid\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6378,8 +6399,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\stupid\\source\\repos\\ICT3101_Calculator.csproj": {
-              "projectPath": "C:\\Users\\stupid\\source\\repos\\ICT3101_Calculator.csproj"
+            "C:\\Users\\stupid\\source\\repos\\3101\\ICT3101_Calculator\\ICT3101_Calculator.csproj": {
+              "projectPath": "C:\\Users\\stupid\\source\\repos\\3101\\ICT3101_Calculator\\ICT3101_Calculator.csproj"
             }
           }
         }
@@ -6441,16 +6462,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\stupid\\source\\repos\\ICT3101_Calculator.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\stupid\\source\\repos\\ICT3101_Calculator.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }

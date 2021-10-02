@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SXs7L7/h8RsU/kVmFAc0A6vKyYaeJqoy43UIm3VD+hcJt5enXP/i0w1jYANO/o4WkJW14hzGIqbRfAZYg6V3JA==",
-  "success": false,
-  "projectFilePath": "C:\\Users\\stupid\\source\\repos\\ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj",
+  "dgSpecHash": "SY38NObfB4qhWeshnpZ6dLPl7ZavLWTQjpFvJUTWIn5d2K3JFPbN/inkwWBydjTUlRkCmU0Q/BZ4wOtW+hmp0g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\stupid\\source\\repos\\3101\\ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stupid\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\stupid\\.nuget\\packages\\cucumber.messages\\6.0.1\\cucumber.messages.6.0.1.nupkg.sha512",
@@ -106,15 +106,5 @@
     "C:\\Users\\stupid\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
     "C:\\Users\\stupid\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\stupid\\source\\repos\\ICT3101_Calculator.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\stupid\\source\\repos\\ICT3101_Calculator.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }
