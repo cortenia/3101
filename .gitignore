@@ -10,6 +10,7 @@
 *.userosscache
 *.sln.docstates
 .vs/*.*
+ICT3101_Calculator.UnitTests/bin
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
