@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Text.RegularExpressions;
 
 namespace ICT3101_Calculator
@@ -149,6 +150,22 @@ namespace ICT3101_Calculator
         public double SSI(double ssi, double csi, double c)
         {
             return Subtract(Add(ssi, csi), c);
+        }
+        public double GenMagicNum(double input, IFileReader getTheMagic)
+        {
+            double result = 0.0;
+            int choice = Convert.ToInt16(input);
+            //Dependency------------------------------ 
+            //FileReader getTheMagic = new FileReader();
+            //---------------------------------------- 
+            string[] magicStrings = getTheMagic.Read(@"C:\Users\stupid\source\repos\3101\ICT3101_Calculator\MagicNumbers.txt");
+
+            if ((choice >= 0) && (choice < magicStrings.Length))
+            {
+                result = Convert.ToDouble(magicStrings[choice]);
+            }
+            result = (result > 0) ? (2 * result) : (-2 * result);
+            return result;
         }
     }
 }

@@ -5,11 +5,13 @@ namespace ICT3101_Calculator.UnitTests
     public class CalculatorTests
     {
         private Calculator _calculator;
+        private IFileReader _fileReader;
         [SetUp]
         public void Setup()
         {
             // Arrange
             _calculator = new Calculator();
+            _fileReader = new FileReader();
         }
         [Test]
         public void Add_WhenAddingTwoNumbers_ResultEqualToSum()
@@ -184,6 +186,17 @@ namespace ICT3101_Calculator.UnitTests
             // Assert
             Assert.That(() => _calculator.UnknownFunctionB(4, 5), Throws.ArgumentException);
         }
+        [Test]
+        public void GenMagicNumber_WhenGivenPositiveNumber_ResultsMultipliedByTwo()
+        {
+            Assert.That(() => _calculator.GenMagicNum(5, _fileReader), Is.EqualTo(8.0) );
+        }
+        [Test]
+        public void GenMagicNumber_WhenGivenIsZero_ResultsIsZero()
+        {
+            Assert.That(() => _calculator.GenMagicNum(10, _fileReader), Is.EqualTo(0));
+        }
+
 
     }
     
