@@ -158,7 +158,7 @@ namespace ICT3101_Calculator
             //Dependency------------------------------ 
             //FileReader getTheMagic = new FileReader();
             //---------------------------------------- 
-            string[] magicStrings = getTheMagic.Read(@"C:\Users\stupid\source\repos\3101\ICT3101_Calculator\MagicNumbers.txt");
+            string[] magicStrings = getTheMagic.Read(@"MagicNumbers.txt");
 
             if ((choice >= 0) && (choice < magicStrings.Length))
             {
