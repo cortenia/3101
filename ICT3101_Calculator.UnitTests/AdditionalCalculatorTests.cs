@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using Moq;
 using NUnit.Framework;
 
@@ -15,7 +16,7 @@ namespace ICT3101_Calculator.UnitTests
         {
             _calculator = new Calculator();
             _mockFileReader = new Mock<IFileReader>();
-            _mockFileReader.Setup(fr => fr.Read(@"MagicNumbers.txt"))
+            _mockFileReader.Setup(fr => fr.Read(Path.Combine(Environment.CurrentDirectory, @"MagicNumber.txt")))
                 .Returns(new string[10] { "9", "8", "7", "6", "5", "4", "3", "2", "1", "0"});
         }
         
