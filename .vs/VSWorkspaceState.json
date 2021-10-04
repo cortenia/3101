@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\ICT3101_Calculator",
-    "\\ICT3101_Calculator.UnitTests",
-    "\\ICT3101_Calculator.UnitTests\\Step_Definitions"
+    "\\ICT3101_Calculator.UnitTests"
   ],
-  "SelectedNode": "\\ICT3101_Calculator.UnitTests\\AdditionalCalculatorTests.cs",
+  "SelectedNode": "\\ICT3101_Calculator\\ICT3101_Calculator.csproj",
   "PreviewInSolutionExplorer": false
 }
