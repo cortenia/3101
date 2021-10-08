@@ -158,9 +158,9 @@ namespace ICT3101_Calculator
             //Dependency------------------------------ 
             //FileReader getTheMagic = new FileReader();
             //---------------------------------------- 
-            // string[] magicStrings = getTheMagic.Read(Path.Combine(Environment.CurrentDirectory, @"..\..\..\MagicNumbers.txt"));
-            string[] magicStrings = getTheMagic.Read(Path.Combine(Environment.CurrentDirectory, @"../../../MagicNumbers.txt"));
-
+            string[] magicStrings = getTheMagic.Read(Path.Combine(Environment.CurrentDirectory, @"..\..\..\MagicNumbers.txt"));
+            //string[] magicStrings = getTheMagic.Read(Path.Combine(Environment.CurrentDirectory, @"../../../MagicNumbers.txt"));
+            // dsf
             if ((choice >= 0) && (choice < magicStrings.Length))
             {
                 result = Convert.ToDouble(magicStrings[choice]);
