@@ -18,8 +18,9 @@ namespace ICT3101_Calculator.UnitTests
             _mockFileReader = new Mock<IFileReader>();
             try
             {
-                _mockFileReader.Setup(fr => fr.Read(Path.Combine(Environment.CurrentDirectory, @"..\..\..\MagicNumbers.txt")))
+                //_mockFileReader.Setup(fr => fr.Read(Path.Combine(Environment.CurrentDirectory, @"..\..\..\MagicNumbers.txt")))
                 //_mockFileReader.Setup(fr => fr.Read(Path.Combine(Environment.CurrentDirectory, @"../../../MagicNumbers.txt")))
+                _mockFileReader.Setup(fr => fr.Read("MagicNumbers.txt"))
                     .Returns(new string[10] { "9", "8", "7", "6", "5", "4", "3", "2", "1", "0" });
             }
             catch (FileNotFoundException e)
