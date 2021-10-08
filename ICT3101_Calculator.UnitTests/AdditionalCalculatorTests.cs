@@ -16,10 +16,20 @@ namespace ICT3101_Calculator.UnitTests
         {
             _calculator = new Calculator();
             _mockFileReader = new Mock<IFileReader>();
-            Console.WriteLine(Environment.CurrentDirectory);
-            _mockFileReader.Setup(fr => fr.Read(Path.Combine(Environment.CurrentDirectory, @"..\..\..\MagicNumbers.txt")))
-            // _mockFileReader.Setup(fr => fr.Read(@"/home/travis/build/cortenia/3101/ICT3101_Calculator.UnitTests/MagicNumbers.txt"))
-                .Returns(new string[10] { "9", "8", "7", "6", "5", "4", "3", "2", "1", "0"});
+            try
+            {
+                _mockFileReader.Setup(fr => fr.Read(Path.Combine(Environment.CurrentDirectory, @"..\..\..\MagicNumbers.txt")))
+                    // _mockFileReader.Setup(fr => fr.Read(@"/home/travis/build/cortenia/3101/ICT3101_Calculator.UnitTests/MagicNumbers.txt"))
+                    .Returns(new string[10] { "9", "8", "7", "6", "5", "4", "3", "2", "1", "0" });
+            }
+            catch (FileNotFoundException e)
+            {
+                throw new FileNotFoundException(Environment.CurrentDirectory, "error: \n", e);
+            }
+            finally
+            {
+
+            }
         }
         
         [Test]
