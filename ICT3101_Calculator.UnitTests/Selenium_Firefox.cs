@@ -19,12 +19,14 @@ namespace ICT3101_Calculator.UnitTests
         public void Start_Browser()
         {
             //geckodriver proxy between selenium and browser
+            /*
             FirefoxDriverService service = FirefoxDriverService.CreateDefaultService(@"C:\Users\stupid\Downloads\geckodriver-v0.30.0-win64", "geckodriver.exe");
-            service.FirefoxBinaryPath = @"C:\Program Files\Mozilla Firefox\firefox.exe";
+            service.FirefoxBinaryPath = @"C:\Program Files\Mozilla Firefox\firefox.exe"; 
+            */
             FirefoxOptions opt = new FirefoxOptions();
             opt.AddArgument("--headless");
-            _driver = new FirefoxDriver(service, opt); // initialise web driver
-            //_driver = new FirefoxDriver(opt);
+            //_driver = new FirefoxDriver(service, opt); // initialise web driver
+            _driver = new FirefoxDriver(opt);
 
         }
         /*
