@@ -1,7 +1,7 @@
 
 language: csharp
 mono: none
-dotnet: 5.0
+dotnet: 3.5
 solution: ICT3101_Calculator/ICT3101_Calculator.sln
 
 addons:
