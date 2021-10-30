@@ -27,7 +27,6 @@ namespace ICT3101_Calculator.UnitTests
             opt.AddArgument("--headless");
             //_driver = new FirefoxDriver(service, opt); // initialise web driver
             _driver = new FirefoxDriver(opt);
-
         }
         /*
          * DEPENDING ON HOW FAST THE WEBDRIVER LOADS THE PAGE
