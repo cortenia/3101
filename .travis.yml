@@ -6,7 +6,7 @@ solution: ICT3101_Calculator/ICT3101_Calculator.sln
 #
 addons:
   chrome: stable
-  firefox: stable
+  firefox: latest
 
 before_install:
   - sudo apt-get update
