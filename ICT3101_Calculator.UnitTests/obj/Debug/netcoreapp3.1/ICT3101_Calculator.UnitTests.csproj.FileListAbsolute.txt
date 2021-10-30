@@ -226,3 +226,4 @@ C:\Users\stupid\source\repos\3101\ICT3101_Calculator.UnitTests\obj\Debug\netcore
 C:\Users\stupid\source\repos\3101\ICT3101_Calculator.UnitTests\obj\Debug\netcoreapp3.1\ICT3101_Calculator.UnitTests.dll
 C:\Users\stupid\source\repos\3101\ICT3101_Calculator.UnitTests\obj\Debug\netcoreapp3.1\ICT3101_Calculator.UnitTests.pdb
 C:\Users\stupid\source\repos\3101\ICT3101_Calculator.UnitTests\obj\Debug\netcoreapp3.1\ICT3101_Calculator.UnitTests.genruntimeconfig.cache
+C:\Users\stupid\source\repos\3101\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\WebDriver.dll
