@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\ICT3101_Calculator",
-    "\\ICT3101_Calculator.UnitTests"
+    "\\ICT3101_Calculator.UnitTests",
+    "\\ICT3101_Calculator.UnitTests\\Features",
+    "\\ICT3101_Calculator.UnitTests\\Selenium_Tests"
   ],
-  "SelectedNode": "\\ICT3101_Calculator\\Calculator.cs",
+  "SelectedNode": "\\ICT3101_Calculator.UnitTests\\Selenium_Firefox.cs",
   "PreviewInSolutionExplorer": false
 }
